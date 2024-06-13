@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: Poppins;
+  }
+  
+  body {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .container{
+    clear:both;
+    overflow:auto;
+    background-color: rgb(0,191,99);
+  }
+  
+  nav{
+    float:right;
+  }
+  
+  .logo img{
+    padding-left: 10px;
+    float:left;
+  }
+  
+  ul li{
+    color: white;
+    display: inline-block; 
+    padding:10px;
+    font-size:20px; 
+    cursor: pointer;
+  }
+  
+  ul li:hover{
+    color:rgb(0,191,99);
+    background-color: white;
+    border-radius: 10px;
+    
+  }
+
+  .sidebar {
+    font-size:20px; 
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    background-color: rgb(0,191,99);
+    position: absolute;
+    height: 185vh;
+    overflow: auto;
+  }
+  
+  .sidebar a {
+    display: block;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+  }
+
+  .sidebar a:hover {
+    background-color: white;
+    color: rgb(0,191,99);
+  }
+  
+  div.main {
+    margin-left: 150px;
+    padding: 1px 16px;
+    height: 1000px;
+    position: relative;
+  }
+
+  .content{
+    margin-top: 15px;
+    background-color: #f1f1f1;
+    width: 100%;
+    height: 500px;
+    align-content: center;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .title{
+    font-size:50px;
+  }
+  
+  .content p{
+    position: relative;
+    margin-top: 10px;
+    font-size: 20px;
+  }
+
+  .content button{
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 15px 32px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: rgb(0,191,99);
+  }
+
+  .breakline{
+    background-color:rgb(0,191,99);
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 0px;
+  }
+
+  .row{
+    position: relative;
+  }
+
+  .column-1, .column{
+    float: left;
+    width: 33%;
+    padding: 10px;
+    height: 700px; /* Should be removed. Only for demonstration */
+  }
+  
+  .column-1{
+    margin-left: 6px;
+  }
+
+  footer {
+    margin-top: 45vh;
+    align-content: center;
+    text-align: center;
+    background-color: rgb(0,191,99);
+    color: white;
+    height: 120px;
+  }
